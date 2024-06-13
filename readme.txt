@@ -1,0 +1,1 @@
+http://localhost/diplom/admin/adminPanel?key=e8b7d2f4e9b47c8eaf3d5d7b9e1a2c8f9b1d4e7a8c7b8f1a3d7b8e1a4b9c8d7e

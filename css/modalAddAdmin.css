@@ -1,0 +1,92 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* Цвет фона с небольшой прозрачностью */
+}
+
+.modal-content {
+    background-color: #fefefe; /* Цвет фона модального окна */
+    margin: 5% auto; /* Отступ сверху и снизу, выровненный по центру */
+    padding: 20px;
+    border: 1px solid #ccc; /* Тонкая серая граница */
+    border-radius: 10px; /* Закругленные углы */
+    width: 70%; /* Ширина модального окна */
+    max-width: 500px; /* Максимальная ширина */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+label {
+    margin-bottom: 8px; /* Отступ между метками и элементами ввода */
+    display: block; /* Отображать метку на новой строке */
+}
+
+.inpM{
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Чтобы внутренний размер учитывал границу */
+
+}
+.selM{
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    box-sizing: border-box; /* Чтобы внутренний размер учитывал границу */
+    background-color: #ffffff; /* Белый фон */
+    color: #000000; /* Черный текст */
+    border: 1px solid #000000; /* Черная обводка */
+    border-radius: 10px; /* Закругление углов */
+    padding: 3px 10px; /* Отступы внутри поля ввода */
+    box-sizing: border-box; /* Учитывать ширину обводки в общей ширине элемента */
+    outline: none; /* Убрать стандартную обводку фокуса */
+    cursor: pointer; /* Курсор при наведении */
+
+}
+
+.texM{
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Чтобы внутренний размер учитывал границу */
+
+}
+
+.butP {
+    background-color: #4CAF50; /* Зеленый цвет фона */
+    color: white; /* Белый цвет текста */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    border: none; /* Без границы */
+    border-radius: 4px; /* Закругленные углы */
+    cursor: pointer; /* Курсор при наведении */
+    float: right; /* Выравнивание кнопки по правому краю */
+}
+
+.butP:hover {
+    background-color: #45a049; /* Цвет фона при наведении */
+}

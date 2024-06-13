@@ -1,0 +1,1017 @@
+﻿body{
+    background-color: black;
+}
+#Главная {
+    margin-bottom: 150px;
+}
+.main_container{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+.header{
+    padding-top: 20px;
+    display: flex;
+    position: fixed;
+    width: 1110px;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.722);
+    justify-content: space-between;
+    z-index: 999;
+}
+.leftpart{
+    display: flex;
+}
+.navbar{
+    margin: auto;
+}
+.navbar > a{
+    color: white;
+    font-family: 'Gilroy-Bold';
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    margin-right: 37px;
+    cursor: pointer;
+}
+.logo{
+    width: 77px;
+    margin-right: 45px;
+    cursor: pointer;
+}
+.rightpart{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.connection_phone_header{
+    font-family: 'Gilroy-Regular';
+    text-align: center;
+    font-weight: 700;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 58px;
+    padding-bottom: 2px;
+    border-bottom: 1px dashed white;
+}
+.phone_header{
+    font-size: 24px;
+    color: #FFF;
+    margin: 0;
+}
+.link_header{
+    font-size: 19px;
+    color: #FFF;
+    margin: 0;
+    cursor: pointer;
+}
+.burger{
+    width: 45px;
+    height: 23px;
+    margin: auto;
+    background-image: url(../img/index_html/burger.svg);
+    cursor: pointer;
+}
+.nav{
+    position: absolute;
+    opacity: 0;
+    background-color: #ffffff;
+    left: 64%;
+    width: 400px;
+    height: 700px;
+    transform: translateY(-745px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.nav.active{
+    position: absolute;
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.full_popup_backcall{
+    display: none;
+}
+.full_popup_backcall.active{
+    background-color: #000000c9;
+    display: block;
+    position: fixed;
+    top: 0;  
+    width: 100%;
+    min-height: 10000px; 
+    z-index: 1000;
+    padding-top: 350px;
+}
+.popup_backcall{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 620px;
+    height: 470px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.popup_cross{
+    width: 50px;
+    height: 50px;
+    text-align: right;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.name_popup{
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 30px;
+    margin-top: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pop_input{
+    background-color: #fff;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    color: #000;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    padding-left: 19px;
+    width: 70%;
+    font-family: 'Gilroy-Regular';
+    font-size: 22px;
+    border-radius: 10px;
+}
+.pop_form{
+    display: block;
+}
+.pop_button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    padding-left: 19px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: #5CC3FD;
+    font-size: 22px;
+    font-family: 'Gilroy-Bold';
+    border: 3px solid #5CC3FD;
+}
+.agreement{
+    text-align: center;
+    font-family: 'Gilroy-Regular';
+    font-size: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cross{
+    position: absolute;
+    width: 50px;
+    left: 88%;
+}
+.points{
+    margin-top: 94px;
+    display: block;
+}
+.nav_point{
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 17%;
+    cursor: pointer;
+}
+.triangle{
+    width: 20px;
+    height: 20px;
+    color: #000;
+    cursor: pointer;
+    background-image: url(../img/index_html/triangle-right.svg);
+}
+.divname{
+    font-family: 'Tactic Sans Extended';
+    font-size: 60px;
+    line-height: 138%; /* 96.6px */
+    margin-bottom: 80px
+}
+.divname p{
+    margin: 0;
+    font-weight: 1000;
+    line-height: 138%; /* 96.6px */
+}
+.text_about_site{
+    line-height: 130%; /* 40.3px */
+    font-size: 31px;
+    font-family: 'Gilroy-Regular';
+    color: white;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.text_about_site p{
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.blue_with_border{
+    color: #5CC3FD;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid white;
+
+}
+.to_order{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    background-color: #5CC3FD;
+    width: 635px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+.to_order > l{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.case{
+    margin-top: 80px;
+    width: 521px; 
+}
+.bgcase{
+    width: 521px;
+    height: 270px;
+}
+.namecase{
+    color: #5CC3FD;
+    font-family: 'Gilroy-Bold';
+    font-size: 26px;
+    margin: 0;
+}
+.toprow{
+    font-family: 'Gilroy-Regular';
+    display: flex;
+    font-size: 16px; 
+}
+.toprow l{
+    margin-top: 18px;
+}
+.steps{
+    padding-top: 30px;
+}
+.steps_name_div{
+    font-family: 'Gilroy-Bold';
+    font-size: 40px;
+    color: #5CC3FD;
+}
+.step{
+    display: flex;
+    font-family: 'Gilroy-Regular';
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 19px;
+    border-bottom: 2px solid white;
+    margin-bottom: 23px;
+}
+.step_num{
+    color: #5CC3FD;
+    margin-right: 40px;
+    /* width: 32px; */
+}
+.step_name{
+    color: #FFF;
+}
+.text_with_line{
+    color: #FFF;
+    font-family: 'Gilroy-Regular';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 24px;
+    border-bottom: 2px solid white;
+}
+.one{
+    margin-top: 42px;
+}
+.consult_titile{
+    margin-top: 80px;
+    font-size: 40px;
+    font-family: 'Gilroy-Regular';
+    color: white;
+    font-weight: 700;
+    padding-bottom: 24px;
+    border-bottom: 2px solid white;
+}
+.consult{
+    width: 85%;
+}
+.consult_text{
+    font-size: 30px;
+    font-family: 'Gilroy-Regular';
+    font-weight: 700;
+    margin-top: 33px;
+    width: 67%;
+}
+.main_form{
+    margin-top: 50px;
+    margin-bottom: 72px;
+}
+.quest_input{
+    width: 80%;
+    font-family: 'Gilroy-Regular';
+    font-size: 24px;
+    color: white;
+    background-color: black;
+    padding-top: 26px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+}
+.main_form > input{
+    margin-bottom: 30px;
+}
+.form_btn{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    background-color: #fff;
+    width: 80%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form_btn > l{
+    margin-left: 15px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+.marking{
+    font-family: 'Gilroy-Regular';
+    font-size: 20px;
+    color: #FFF;
+    margin: 12px 0 0 0;
+}
+.marking a{
+    color: #FFF;
+}
+.connection{
+    font-family: 'Gilroy-Regular';
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.connection_tg{
+    display: flex;
+    justify-content: space-between;
+    font-size: 27px;
+    padding: 24px 15px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    cursor: pointer;
+}
+.connection_phone{
+    font-family: 'Gilroy-Regular';
+    font-weight: 700;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 2px;
+    border-bottom: 1px dashed white;
+}
+.phone{
+    font-size: 35px;
+    color: #FFF;
+    margin: 0;
+}
+.link{
+    font-size: 25px;
+    color: #FFF;
+    margin: 0;
+    cursor: pointer;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+}
+.company_name{
+    margin-top: 0;
+}
+.map{
+    width: 733px;
+    height: 321px;
+    margin-left: 50px;
+}
+.company_name{
+    font-family: 'Gilroy-Bold';
+    font-size: 30px;
+    color: #FFF;
+    margin-bottom: 41px;
+}
+.contact{
+    font-size: 26px;
+    font-family: 'Gilroy-Regular';
+    color: #5CC3FD;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 60px;
+}
+.column_name{
+    color: #5CC3FD;
+    font-family: 'Gilroy-Bold';
+    font-size: 30px;
+    margin-top: 0px;
+}
+.social_logo{
+    width: 50px;
+    height: 50px;
+    margin-bottom: auto;
+    
+    cursor: pointer;
+}
+.foot_link{
+    font-size: 12px;
+    font-family: 'Gilroy-Regular';
+    color: #FFF;
+    text-decoration: none;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-bold-1.eot') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-bold.svg') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Gilroy-Regular';
+	src: url('../fonts/gilroy-regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-regular-1.eot') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-regular.svg') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Tactic Sans Extended';
+    src: url('../fonts/TacticSansExd-BlkIt.ttf');
+  }
+  @font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('../fonts/gilroy-semibold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/gilroy-semibold-1.eot') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/gilroy-semibold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/gilroy-semibold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/gilroy-semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./../fonts/gilroy-semibold.svg#gilroy-semibold') format('svg'); /* Chrome < 4, Legacy iOS */
+    }
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: url('../fonts/Gilroy-ExtraBold.otf'),;
+}
+@media screen and (max-width: 1350px){
+    body {
+        overflow-x: hidden;
+    }
+    .main_container{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav{
+        left: 50%;
+    }
+    .to_order{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .divname{
+        font-size: 54px;
+        margin-left: auto;
+        margin-right: auto; 
+        text-align: center;
+    }
+    .divname p{
+        text-align: center;
+    }
+    .sitename{
+        font-size: 64px;
+        text-align: center;
+    }
+    .about_div{
+        font-size: 30px;
+    }
+    .text_about_site{
+        font-size: 22px;
+        font-family: 'Gilroy-SemiBold';
+        font-weight: 500;
+    }
+    .header{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo{
+        width: 65px;
+    }
+    .navbar > a{
+        font-size: 18px;
+    }
+    .phone_header{
+        font-size: 20px;
+    }
+    .link_header{
+        font-size: 15px;
+    }
+    .types{
+        grid-template-columns: repeat(2, 1fr);
+        /* column-gap: 46px; */
+    }
+    .type{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .type > img{
+        margin-left: 30px;
+    }
+    .cases{
+        display: block;
+    }
+    .case{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    .tech_name{
+        font-family: 'Gilroy-Regular';
+        font-size: 20px;
+        color: #FFF;
+    }
+    .consult{
+        text-align: center;
+        font-weight: 500;
+        width: 100%;
+    }
+    .consult_titile{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .consult_text{
+        text-align: center;
+        width: 100%;
+    }
+    .quest_input{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main_form{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    .form_btn{
+        width: 100%;
+    }
+    .steps_name_div{
+        font-size: 30px;
+    }
+    .step{
+        font-size: 25px;
+    }
+    .social_logo{
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .main_container{
+        width: 720px;
+    }
+    .header{
+        width: 720px;
+    }
+    .connection_phone_header{
+        display: none;
+    }
+    .divname{
+        font-size: 58px;
+        text-align: center;
+        
+    }
+    .nav{
+        left: 40%;
+    }
+    .name_type{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .text_type{
+        margin-top: 0;
+    }
+    .price{
+        font-size: 15px;
+    }
+    .connection_tg{
+        font-size: 22px;
+        padding: 18px 12px;
+    }
+    .connection_phone{
+        text-align: center;
+    }
+    .phone{
+        font-size: 26px;
+    }
+    .link{
+        font-size: 20px;
+    }
+    .consult, .consult_text, .text_with_line{
+        font-size: 26px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .divname{
+        font-size: 50px;
+    }
+    .partners > img{
+        width: 150px;
+    }
+    .company_name{
+        font-size: 24px;
+    }
+    .contacts{
+        display: block;
+        text-align: center;
+    }
+    .contact{
+        font-size: 20px;
+    }
+    .map{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .footer{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .nav{
+        left: 45%;
+    }
+    .popup_backcall.active{
+        width: 400px;
+        height: 400px;
+    }
+    .name_popup {
+        font-size: 20px;
+    }
+    .pop_input{
+        font-size: 14px;
+        margin-bottom: 20px;
+        padding: 9px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+    .pop_button{
+        font-size: 18px;
+        padding: 9px;
+        border-radius: 5px;
+    }
+    .agreement{
+        font-size: 14px;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 820px){
+    .main_container{
+        width: 350px;
+        margin-bottom: 60px;
+    }
+    .full_popup_backcall.active{
+        padding-top: 200px;
+    }
+    .popup_backcall.active{
+        width: 300px;
+        height: 250px;
+    }
+    .name_popup{
+        font-size: 12px;
+    }
+    .pop_input, .pop_button{
+        font-size: 10px;
+    }
+    .pop_input{
+        margin-bottom: 10px;
+        width: 60%;
+    }
+    .pop_button{
+        width: 60%;
+    }
+    .popup_cross{
+        width: 30px;
+        height: 30px;
+    }
+    .agreement {
+        font-size: 10px;
+    }
+    .burger{
+        width: 30px;
+        height: 22px;
+    }
+    #Главная {
+        margin-bottom: 100px;
+    }
+    .header{
+        width: 350px;
+    }
+    .logo{
+        width: 40px;
+        margin-right: 20px;
+    }
+    .navbar > a{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    .sitename{
+        font-size: 30px;
+    }
+    .nav, nav.active{
+        height: 450px;
+        width: 300px;
+        left: 15%;
+        top: 35%;
+        border-radius: 5px;
+    }
+    .cross{
+        left: 83%;
+    }
+    .text_with_line{
+        font-family: 'Gilroy-SemiBold';
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .consult_titile{
+        padding-bottom: 10px;
+        width: 90%;
+    }
+    .to_order{
+        width: 80%;
+        font-size: 18px;
+        padding: 12px 7px;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .to_order > l{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .to_order > img{
+        height: 20px;
+        
+    }
+    .divname{
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+    .about_div{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .text_about_site{
+        font-size: 14px;
+    }
+    .text_about_site > p{
+        margin-bottom: 15px;
+    }
+    .type{
+        width: 160px;
+        height: 160px;  
+    }
+    .types{
+        column-gap: 5px;
+    }
+    .num_type{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .name_type{
+        font-size: 10px;
+        width: 100%;
+        margin-left: 15px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .type > img{
+        margin-left: 15px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .text_type{
+        font-size: 7px;
+        margin-left: 15px;
+        margin-top: 0px;
+        height: 55px;
+    }
+    .price{
+        top: 0;
+        bottom: 3%;
+        font-size: 8px;
+    }
+    .case{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .case > img{
+        width: 300px;
+        height: 160px;
+    }
+    .toprow{
+        font-size: 10px;justify-content: space-between;
+        display: flex;
+        padding-bottom: 5px;
+        border-bottom: 1px solid white;
+        margin-bottom: 5px;
+
+    }
+    .toprow > img{
+       display: none;
+    }
+    .namecase{
+        font-size: 18px;
+    }
+    .consult, .consult_text{
+        font-size: 18px;
+        font-family: 'Gilroy-SemiBold';
+        font-weight: 500;
+    }
+    .quest_input{
+        font-size: 14px;
+        padding: 12px;
+        border-radius: 5px;
+       
+    }
+    .blue_with_border{
+        padding-bottom: 10px;
+    }
+    .main_form {
+        width: 90%;
+    }
+    .main_form > input{
+        margin-bottom: 10px;
+    }
+    .form_btn{
+        border-radius: 5px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .form_btn > l{
+        margin: 10px 12px;
+    }
+    .form_btn > img{
+        width: 30px;
+        height: 30px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .btn_text{
+        margin: 12px auto 12px 8px;
+    }
+    .btn_img{
+        padding-right: 8px;
+        width: 30px;
+    }
+    .marking{
+        font-size: 12px;
+    }
+    .connection{
+        font-family: 'Gilroy-SemiBold';
+        font-weight: 500;
+    }
+    .connection_tg{
+        font-size: 10px;
+        padding: 9px 6px;
+        border-radius: 5px;
+        justify-content: space-around;
+        margin-right: 20px;
+    }
+    .connection_tg > img{
+        height: 20px;
+        margin: auto;
+    }
+    .telegram{
+        font-size: 10px;
+        margin: auto;
+    }
+    .phone{
+        font-family: 'Gilroy-SemiBold';
+        font-weight: 500;
+        font-size: 12px;
+        color: white;
+        text-decoration: none;
+    }
+    .link{
+        font-family: 'Gilroy-SemiBold';
+        font-weight: 500;
+        font-size: 10px;
+    }
+    .partners > img{
+        width: 80px;
+    }
+    .nav_point{
+        font-size: 12px;
+    }
+    .nav{
+        height: 450px;
+    }
+    .new_name{
+        font-size: 12px;
+    }
+    .new_text{
+        font-size: 10px;
+    }
+    .news{
+        column-gap: 16px;
+    }
+    .new{
+        height: 200px;
+    }
+    .company_name{
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    #Контакты{
+        margin-bottom: 40px;
+    }
+    .contact{
+        font-size: 14px;
+        text-align: center;
+    }
+    .column_name{
+        font-size: 12px;
+    }
+    .foot_link{
+        font-size: 8px;
+    }
+    .footer{
+        grid-template-columns: repeat(4, 80px);
+        column-gap: 10px;
+    }
+    .social_logo{
+        width: 25px;
+        height: 25px;
+    }
+    .map{
+        height: 270px;
+    }
+    .steps_name_div{
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+    }
+    .steps{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .step{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 12px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid white;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .step_num{
+        margin-right: 15px;
+    }
+    .consult_titile{
+        margin-top: 40px;
+        padding-bottom: 10px;
+    }
+}
